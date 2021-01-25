@@ -3,7 +3,7 @@ import logo from '../../statics/logo.png';
 import user from '../../statics/account.png';
 import cart from '../../statics/shopping-cart.png';
 import './header.css';
-import Cart from '../carousel/cart';
+import Cart from '../cart/cart';
 
 const Header = (props) => {
 
