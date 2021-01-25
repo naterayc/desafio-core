@@ -1,0 +1,78 @@
+footer{
+    background-color:#000000;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+footer div{
+    width: 25%;
+    margin: 0 2%;
+}
+
+.footer-addres{
+    text-align: left;
+    padding-top: 2%;
+}
+
+.footer-addres > hr {
+    width:20%;
+    height: .125rem;
+    background-color: #fff;
+    margin:0;
+}
+
+.footer-addres > p:nth-child(1){
+    font-weight: 600;
+}
+
+.footer-addres > p{
+    line-height: 2rem;
+}
+
+.footer-btn-container{
+    padding: 5% 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.footer-btn-container button{
+    width:90%;
+    height: 3.125rem;
+    border-radius: 5px;
+    background-color: #e2e2e2;
+    border: solid 1px #e2e2e2;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 4%;
+    max-width: 212px;
+}
+
+.footer-btn-container > button:nth-child(1){
+    margin-bottom: 5%;
+}
+
+.footer-btn-container > button:nth-child(1) > img{
+    margin-right: 5%;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.copyright > div{
+    width: 30%;
+    font-weight: 300;
+    font-size: .6rem;
+}
+
+.copyright>div>span{
+    display: block;
+}
+

@@ -1,0 +1,80 @@
+.slick-container{
+    width:75%;
+    margin: 5% auto;
+    position: relative;
+    font-family: "Nunito", sans-serif;
+}
+
+.slick-container>h2{
+    color:#000;
+    font-weight: 600;
+    text-align: left;
+}
+
+div.slick-slider{
+    width:100%;
+    overflow: hidden;
+}
+
+button.slick-arrow.slick-prev{
+    position:absolute;
+    left:-11%;
+    top:50%;
+}
+
+button.slick-arrow.slick-next{
+    position:absolute;
+    right:-11%;
+    top:50%;
+}
+
+div.slick-track{
+    display:flex;
+    width:100%;
+}
+
+.product-img{
+    width:80%;
+    margin: auto;
+}
+
+.product-name{
+    text-transform: uppercase;
+    font-size: .8rem;
+    color:#424242;
+    width: 80%;
+    margin: 5% auto;
+}
+
+.stars{
+    display: flex;
+    margin: 5% auto;
+    justify-content: center;
+    width: 80%;
+}
+
+.product-price{
+    font-weight: 800;
+    color:#000;
+    font-size: .8rem;
+    width: 80%;
+    text-align: center;
+    margin: 2% auto;
+
+}
+
+
+.buy-btn{
+    background-color: #000;
+    color: #ffffff;
+    border: solid 1px #000;
+    border-radius: .313rem;
+    height: 2.188rem;
+    visibility: hidden;
+}
+
+
+
+#product:hover .buy-btn{
+    visibility: visible;
+}
